@@ -1,0 +1,28 @@
+.wrapper {
+  background: linear-gradient(315deg, #00B2A9 0%, #005776 100%);
+  padding-top: 1rem;
+}
+
+.sidebarContent {
+  background: var(--tertiary);
+  color: var(--white);
+  min-height: calc(100vh - 1rem);
+  height: 100%;
+}
+
+.mainContent {
+  background: var(--primary);
+  color: var(--white);
+  min-height: calc(100vh - 1rem);
+  padding: 5rem 2rem;
+  height: 100%;
+
+  @media screen and (min-width: '62em') {
+    padding: 5rem;
+  }
+}
+
+.title {
+  font-size: 4.4rem;
+  margin-bottom: 3rem;
+}
